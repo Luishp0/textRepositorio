@@ -23,7 +23,7 @@ def descifrar():
     salida_texto.insert("1.0", texto_plano)
     salida_texto.config(state="disabled")
 
-
+#comentario de prueba
 def cifrar_texto(texto, columnas=5):
     texto = texto.upper()
     texto_sin_espacios = texto.replace(" ", "")
